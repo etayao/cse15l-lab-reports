@@ -35,7 +35,7 @@ FOR WINDOWS USERS:
     
 Once a new terminal is created, it should look something like this.
 
-![Image](https://imgur.com/a/iQDGWVa)
+![Image](https://imgur.com/012Z4FB)
    
 
 ## Step 3 - Remotely Connecting
