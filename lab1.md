@@ -7,11 +7,11 @@ Visual Studio (VS) Code is a code editor but also a way for you to access your o
 
 Open the [VS Code website](https://code.visualstudio.com/), and download and install. Use dropdown menu in the download button to find the correct version according to your operating system (e.g. Windows for PCs, macOS for Macs, etc.).
 
-![Image](https://imgur.com/a/xgPnc1B)
+![Image](vsWeb.png)
 
 Once VS Code is installed, opening up VS Code should like like this. My editor may have a different color theme installed than what appears on your computer.
 
-![Image](https://imgur.com/a/7Refp6A)
+![Image](vsOpen.png)
 
 NOTE: Adding this program to your taskbar or desktop will help accessing it in the future.
 
@@ -20,22 +20,22 @@ NOTE: Adding this program to your taskbar or desktop will help accessing it in t
 
 Once VS Code is open, go to the top left menu (you might have to open a 3-bar icon to see these options) and click Terminal. You want to select "New Terminal" and a new terminal should appear somewhere on the VS Code application.
 
-![Image](https://imgur.com/a/FkxHuTd)
+![Image](terminal.png)
 
-![Image](https://imgur.com/a/csleyf5)
+![Image](newTerm.png)
 
 
 FOR WINDOWS USERS: 
     The Windows terminal doesn't automatically run bash (Mac automatically does), so you're terminal will look something like this.
-    ![Image](https://imgur.com/a/ATC8Wew)
+    ![Image](powershell.png)
     If you don't already have Git installed, you to follow this guide need to install [Git For Windows](https://gitforwindows.org/). 
     Once you open the terminal and you have Git installed, you need to open this drop-down menu and select "Git Bash".
-    ![Image](https://imgur.com/a/kfTSKqU)
+    ![Image](termMenu.png)
     Then, you can continue on as normal.
     
 Once a new terminal is created, it should look something like this.
 
-![Image](https://imgur.com/012Z4FB)
+![Image](terminalOpen.png)
    
 
 ## Step 3 - Remotely Connecting
