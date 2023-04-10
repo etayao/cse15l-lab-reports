@@ -49,13 +49,13 @@ In the terminal, type in this command
 `$ ssh cs15lsp23zz@ieng6.ucsd.edu`
 
 NOTE: You don't need to type in the dollar sign, but replace the zz with your the last 2 letters of your own course-specific username.
-    ```
-    $ ssh cs15lsp23zz@ieng6.ucsd.edu
-    The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
-    RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
-    Are you sure you want to continue connecting (yes/no/[fingerprint])? 
-    In return, you should see something like this pop up in the terminal. 
-    ```
+ ```
+ $ ssh cs15lsp23zz@ieng6.ucsd.edu
+ The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
+ RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
+ Are you sure you want to continue connecting (yes/no/[fingerprint])? 
+ In return, you should see something like this pop up in the terminal. 
+ ```
 
 Type in "yes" and you're connected!
 
