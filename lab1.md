@@ -26,12 +26,13 @@ Once VS Code is open, go to the top left menu (you might have to open a 3-bar ic
 
 
 FOR WINDOWS USERS: 
-    The Windows terminal doesn't automatically run bash (Mac automatically does), so you're terminal will look something like this.
+   The Windows terminal doesn't automatically run bash (Mac automatically does), so you're terminal will look something like this.
     ![Image](powershell.png)
-    If you don't already have Git installed, you to follow this guide need to install [Git For Windows](https://gitforwindows.org/). 
-    Once you open the terminal and you have Git installed, you need to open this drop-down menu and select "Git Bash".
+   If you don't already have Git installed, you to follow this guide need to install [Git For Windows](https://gitforwindows.org/). 
+   Once you open the terminal and you have Git installed, you need to open this drop-down menu and select "Git Bash".
     ![Image](termMenu.png)
-    Then, you can continue on as normal.
+    
+   Then, you can continue on as normal.
     
 Once a new terminal is created, it should look something like this.
 
