@@ -78,4 +78,4 @@ Mon Apr 10, 2023 11:33am - Prepping cs15lsp23
 
 ```
 
-
+From here you can try some commands, but you've sucessfully logged in with your CSE 15L account!
