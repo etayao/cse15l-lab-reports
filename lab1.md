@@ -78,7 +78,10 @@ Mon Apr 10, 2023 11:33am - Prepping cs15lsp23
 
 ```
 
-From here you can try some commands. Here's an example of how the commands `ls` and `pwd` look on your terminal.
+From here you can try some commands. Here's an example of how the commands look on your terminal.
+
+Examples for `ls` and `pwd`
 ![Image](commands.png)
+
 
 And you've sucessfully logged in with your CSE 15L account!
