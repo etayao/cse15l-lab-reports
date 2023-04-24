@@ -80,8 +80,19 @@ Mon Apr 10, 2023 11:33am - Prepping cs15lsp23
 
 From here you can try some commands. Here's an example of how the commands look on your terminal.
 
+
 Examples for `ls` and `pwd`
+
 ![Image](commands.png)
+
+
+Examples for `ls -lat`
+![Image](Screenshot 2023-04-24 143346.png)
+
+
+Examples for trying to access a director for another account 
+![Image](lsOther.png)
+(You should be denied access)
 
 
 And you've sucessfully logged in with your CSE 15L account!
