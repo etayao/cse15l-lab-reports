@@ -8,6 +8,7 @@ Visual Studio (VS) Code is a code editor but also a way for you to access your o
 Open the [VS Code website](https://code.visualstudio.com/), and download and install. Use dropdown menu in the download button to find the correct version according to your operating system (e.g. Windows for PCs, macOS for Macs, etc.).
 
 ![Image](vsWeb.png)
+<img src="vsWeb.png" alt= “” width=100 height=500>
 
 Once VS Code is installed, opening up VS Code should like like this. My editor may have a different color theme installed than what appears on your computer.
 
