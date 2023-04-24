@@ -11,7 +11,7 @@ Open the [VS Code website](https://code.visualstudio.com/), and download and ins
 
 Once VS Code is installed, opening up VS Code should like like this. My editor may have a different color theme installed than what appears on your computer.
 
-<img src="vsOpen.png" alt= “” width=102 height=192>
+<img src="vsOpen.png" alt= “” width=640 height=360>
 
 NOTE: Adding this program to your taskbar or desktop will help accessing it in the future.
 
