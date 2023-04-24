@@ -87,7 +87,8 @@ Examples for `ls` and `pwd`
 
 
 Examples for `ls -lat`
-![Image](Screenshot 2023-04-24 143346.png)
+
+<img src="lsLat.png" alt= “” width=323 height=236>
 
 
 Examples for trying to access a director for another account 
