@@ -7,11 +7,11 @@ Visual Studio (VS) Code is a code editor but also a way for you to access your o
 
 Open the [VS Code website](https://code.visualstudio.com/), and download and install. Use dropdown menu in the download button to find the correct version according to your operating system (e.g. Windows for PCs, macOS for Macs, etc.).
 
-<img src="vsWeb.png" alt= “” width=300 height=500>
+<img src="pics/vsWeb.png" alt= “” width=300 height=500>
 
 Once VS Code is installed, opening up VS Code should like like this. My editor may have a different color theme installed than what appears on your computer.
 
-<img src="vsOpen.png" alt= “” width=640 height=360>
+<img src="pics/vsOpen.png" alt= “” width=640 height=360>
 
 NOTE: Adding this program to your taskbar or desktop will help accessing it in the future.
 
@@ -20,27 +20,27 @@ NOTE: Adding this program to your taskbar or desktop will help accessing it in t
 
 Once VS Code is open, go to the top left menu (you might have to open a 3-bar icon to see these options) and click Terminal. You want to select "New Terminal" and a new terminal should appear somewhere on the VS Code application.
 
-![Image](terminal.png)
+![Image](pics/terminal.png)
 
-![Image](newTerm.png)
+![Image](pics/newTerm.png)
 
 
 FOR WINDOWS USERS: 
 The Windows terminal doesn't automatically run bash (Mac automatically does), so you're terminal will look something like this.
 
-![Image](powershell.png)
+![Image](pics/powershell.png)
 
 If you don't already have Git installed, you to follow this guide need to install [Git For Windows](https://gitforwindows.org/). 
 Once you open the terminal and you have Git installed, you need to open this drop-down menu and select "Git Bash".
 
-![Image](termMenu.png)
+![Image](pics/termMenu.png)
 
 Then, you can continue on as normal.
 
 
 Once a new terminal is created, it should look something like this.
 
-![Image](terminalOpen.png)
+![Image](pics/terminalOpen.png)
    
 
 ## Step 3 - Remotely Connecting
@@ -83,7 +83,7 @@ From here you can try some commands. Here's an example of how the commands look 
 
 Examples for `ls` and `pwd`
 
-![Image](commands.png)
+![Image](pics/commands.png)
 
 
 Examples for `ls -lat`
@@ -92,7 +92,7 @@ Examples for `ls -lat`
 
 
 Examples for trying to access a director for another account 
-![Image](lsOther.png)
+![Image](pics/lsOther.png)
 (You should be denied access)
 
 
