@@ -1,7 +1,7 @@
 # Lab Report 3 
 
 ## Researching Commands
-*All examples will be taken from the ./technical directory as descriped in Lab 3.*
+*All examples will be taken from the ./technical directory as descriped in Lab 3. Assume that the working directory is in */technical/*
 
 ### The less command
 
@@ -11,10 +11,32 @@
 
 Generally, the syntax of the less command looks something like this:
 `less  <file path>`
-For example, using `less biomed/rr74.txt` while already the technical directory prints out the entire text in rr74.txt.
+For example, using `less biomed/rr74.txt` prints out the entire text in rr74.txt.
 
-##### Alternate uses
-With different flags (options/versions) of the less command, it would look more like this: `less [options] <file path>`. Each option gives different versions of the `less` command. Here's 4.
+#### Alternate uses
+With different flags (options/versions) of the less command, it would look more like this: `less [options] <file path>`. Each option gives difflesserent versions of the `less` command. Here's 4.
 
 
-####
+###### -N
+The -N option displays the line numbers alond with the contents in the file. 
+
+**Example 1: Viewing a specific file** 
+Input:
+```
+ls -N plos/pmed.0020212.txt
+```
+Output:
+```ruby
+c
+```
+**Example 1: Viewing files in a directory** 
+Input:
+```
+ls -N biomed/*
+```
+Output:
+
+
+
+###### --chop-long-lines
+
