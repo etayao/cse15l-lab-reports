@@ -82,13 +82,14 @@ less -p "journalists" plos/journal.pbio.0020228.txt
 ```
 Output:
 ```
+...
 policy makers, //journalists//, and other interested parties. Precisely which uses are
         permitted and which are not is far from a trivial matter. The particular copyright license
         under which an article is published largely determines how the document can be stored,
-        searched, and built upon by other scientists.
+        searched, and built upon by other scientists...
 
 ```
-*The //journalists// represents how the first instance of "journalists" is highlighted and less directly shows where it is located. In the command line, "journalists" would simply be highlighted. The slashes (//) are added for emphasis*
+*The //journalists// represents how the first instance of "journalists" is highlighted and less directly shows where it is located. In the command line, "journalists" would simply be highlighted. The slashes (//) are added for emphasis. The ... are addded to conserve space.*
 
 
 **Example 2: patterns in multiple files**
