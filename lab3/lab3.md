@@ -69,12 +69,14 @@ Output:
 
 Here, `cat` is putting together the contents of both files. You can have more than one file used with grep, but here's 2 for space's sake. In addition with `less -N`, cat's readability is improved. The files are put together in the `less` reading space and lines are numbered as well. This is useful for viewing multiple files at a time, while keeping track of where you're reading, hence the line numbers. 
 
+*Note: when using less on a directory with multiple files, type in `:n` the less directory to go the next file in the directory.*
+
 
 *Sources: [linuxize](https://linuxize.com/post/less-command-in-linux/), [makeuseof](https://www.makeuseof.com/use-less-more-and-most-linux-commands/#:~:text=Using%20the%20Default%20less%20Command&text=To%20move%20forward%20by%20a,want%20to%20go%20back%20by.), [phoenixap](https://phoenixnap.com/kb/less-command-in-linux), ChatGPT*
-# -p Flag
-The `-p` option specified a search pattern to look for while opening one or more files. The pattern specified is highlighted and directly shows you the first occurance of that pattern.
+# Searching for Patterns
+The `-p` option specified a search pattern to look for while opening one or more files. The pattern specified is highlighted and directly shows you the first occurance of that pattern. This makes it easy to search for a specifc word or phrase (pattern) in one or more files. 
 
-**Example 1: patterns in one file**
+**Example 1: -p flag**
 
 Input:
 ```
@@ -91,7 +93,15 @@ policy makers, //journalists//, and other interested parties. Precisely which us
 ```
 *The //journalists// represents how the first instance of "journalists" is highlighted and less directly shows where it is located. In the command line, "journalists" would simply be highlighted. The slashes (//) are added for emphasis. The ... are addded to conserve space.*
 
+Here, the `less` command is still reading the file, but prioritizing the first instance of the pattern in the file. 
 
-**Example 2: patterns in multiple files**
+**Example 2: /pattern**
+Input: 
+```
+less biomed/rr73.txt
+```
+Earlier, we saw that typing in commands like `q` or `:n` had specific commands when `less` opened a file. Simiarly, when the less command is used, `/pattern <search term>` can be used to find certain terms. Here's what that looks like. \
+![Image]()
+
 
 
