@@ -62,7 +62,8 @@ Input:
 cat plos/pmed.0020024.txt plos/pmed.0020281.txt | less -N
 ```
 Output:
-<img src="pics/cat_and_less.png" alt= “” width=300 height=500>
+
+<img src="pics/cat_and_less.png" alt= “” width=500 height=500>
 
 *The example is cut off for space purposes, but this picture shoes the concatetation of both file contents*
 
@@ -74,6 +75,7 @@ Here, `cat` is putting together the contents of both files. You can have more th
 The `-p` option specified a search pattern to look for while opening one or more files. The pattern specified is highlighted and directly shows you the first occurance of that pattern.
 
 **Example 1: patterns in one file**
+
 Input:
 ```
 less -p "journalists" plos/journal.pbio.0020228.txt
