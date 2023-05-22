@@ -3,22 +3,31 @@
 --> skipping steps 1 - 4 (setting up github and starting timer)
 
 *At this point, the repo link of my fork is in my clipboard from copying the url with (<ctrl> + <c>)*
+
+
+
+*--> Anytime you see <...> with these angle brackets, this means the text inside will refer to certain keys that are pressed*
 ### Step 4 - Logging into ieng6
 **What I typed:**
 
+Opening terminal: ``<ctrl><`>``
+
+Logging in with ssh: `ssh cs15lsp23ld@ieng6.ucsd.edu<enter>`
+
+Since I've already authenticated my laptop in lab7, I don't need to type in a password
+![Image](pics/ssh.png)
 
 ### Step 5 - Cloning our fork
 **What I typed:**
-Opening terminal: ``<ctrl><\`>``
 
 Cloning fork: `git clone <ctrl><c><enter>`
-This uses the `git clone` command to copy the fork into your repository.
+
+This uses the `git clone` command to copy the fork into your directory. [This](https://github.com/ucsd-cse15l-s23/lab7) is the link in my clipboard that is cloned.
 
 
 ![Image](pics/git-clone.png)
 
 
-*--> Anytime you see <...> with these angle brackets, this means the text inside will be certain keys that are pressed*
 
 ### Step 6 - Demonstrating failure
 **What I typed:**
