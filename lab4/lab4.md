@@ -8,7 +8,7 @@ Opening terminal: ``<ctrl> + <\`>``
 Cloning fork: `git clone <ctrl> <c>`
 
 
-![Image](git-clone.png)
+![Image](pics/git-clone.png)
 
 
 *Anytime you see <...> with these angle brackets, this means the text inside will be certain keys taht are pressed*
