@@ -10,10 +10,9 @@
 ### Step 4 - Logging into ieng6
 **What I typed:**
 
-Opening terminal: ``<ctrl><`>``
+1. Opening terminal: ``<ctrl><`>``
 
-Logging in with ssh: (in terminal) `ssh cs15lsp23ld@ieng6.ucsd.edu<enter>`
-
+2. Logging in with ssh: (in terminal) `ssh cs15lsp23ld@ieng6.ucsd.edu<enter>`
 Since I've already authenticated my laptop in lab7, I don't need to type in a password.
 ![Image](pics/ssh.png)
 
@@ -21,10 +20,7 @@ Since I've already authenticated my laptop in lab7, I don't need to type in a pa
 **What I typed:**
 
 1. Cloning fork: (in terminal) `git clone <ctrl><c><enter>`
-
 This uses the `git clone` command to copy the fork into your directory. [This](https://github.com/ucsd-cse15l-s23/lab7) is the link in my clipboard that is cloned.
-
-
 ![Image](pics/git-clone.png)
 
 
@@ -35,7 +31,6 @@ This uses the `git clone` command to copy the fork into your directory. [This](h
 1. Changing into lab7 directory: (in terminal) `cd l<tab><enter>`
 
 2. Running the test file: (in terminal) `bash t<tab><enter>`
-
 In order to demonstrate failure, I have to run the test bash file that contains the compile and run Java commands (`javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` and `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests`)
 ![Image](pics/failure.png)
 
@@ -46,13 +41,9 @@ In order to demonstrate failure, I have to run the test bash file that contains 
 ![Image](pics/vim-cmd.png)
 
 2. Editing the code: (in vim) `<left arrow><r><2>`
-
 This is what vim looks like on my end:
-
 ![Image](pics/vim-modified.png)
-
 But here's the entirety of what vim looks like in my terminal:
-
 ![Image](pics/vim-open.png)
 
 3. Escaping insert mode, saving, and quitting vim: (in cim) `<escape><:><w><q>`
@@ -76,7 +67,6 @@ After editing the code in vim, the test file has to be run again to show that Li
 ![Image](pics/add-commit.png)
 
 2. git push: (in terminal) `git push<enter>`
-
 ![Image](pics/help.png)
 
 Unfotunately this very last step doesn't work on my end. I'm pretty sure I followed the SSH with github steps properly, but I'm still getting this error. 
