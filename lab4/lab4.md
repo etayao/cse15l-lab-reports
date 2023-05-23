@@ -6,7 +6,7 @@
 
 
 
-*--> Anytime you see <...> with these angle brackets, this means the text inside will refer to certain keys that are pressed*
+*--> Anytime you see <...> with these angle brackets, this means the text inside will refer to certain keys that are pressed. If a referral to what's been type is not in <> brackets, then it is typed out regularly as seen.*
 ### Step 4 - Logging into ieng6
 **What I typed:**
 
@@ -32,9 +32,9 @@ This uses the `git clone` command to copy the fork into your directory. [This](h
 ### Step 6 - Demonstrating failure
 **What I typed:**
 
-1. Changing into lab7 directory: (in terminal) `ls l<tab><enter>`
+1. Changing into lab7 directory: (in terminal) `cd l<tab><enter>`
 
-2. Running test file: (in terminal) `bash t<tab><enter>`
+2. Running the test file: (in terminal) `bash t<tab><enter>`
 
 In order to demonstrate failure, I have to run the test bash file that contains the compile and run Java commands (`javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` and `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests`)
 ![Image](pics/failure.png)
@@ -55,12 +55,24 @@ But here's the entirety of what vim looks like in my terminal:
 
 ![Image](pics/vim-open.png)
 
-3. Escaping insert mode, saving, and quitting vim: `<escape><:><q><shift><!>`
+3. Escaping insert mode, saving, and quitting vim: (in cim) `<escape><:><w><q>`
 
-To edit my code and make the tests run sucessfully, I need to use vim. Thankfully, opening vim on my end lands my right next to the character I'm supposed to change, so that makes it simple for me.
+To edit my code and make the tests run sucessfully, I need to use vim to change `index1` to `index2`. Thankfully, opening vim on my end lands my right next to the character I'm supposed to change, so that makes it simple for me, otherwise, I would have had to maneuver around the file more.
 
 ### Step 8 - Running sucessful tests
 **What I typed:**
 
+1. Running the test file: (in terminal) `<up arrow><up arrow>`
+(because `bash test.sh` was run recently)
+
+![Image](pics/success.png)
+
+After editing the code in vim, the test file has to be run again to show that ListExamples.java has been fixed. Now, there are no errors in the tests.
+
 ### Step 9 - Committing and pushing changes to Github
 **What I typed:**
+
+1. git add & commit: (in terminal) `git add --all<enter>git commit -am "hoping"<enter>`
+![Image](pics/add-commit.png)
+
+2. git push
