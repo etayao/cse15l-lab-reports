@@ -20,7 +20,7 @@ Since I've already authenticated my laptop in lab7, I don't need to type in a pa
 ### Step 5 - Cloning our fork
 **What I typed:**
 
-Cloning fork: (in terminal) `git clone <ctrl><c><enter>`
+1. Cloning fork: (in terminal) `git clone <ctrl><c><enter>`
 
 This uses the `git clone` command to copy the fork into your directory. [This](https://github.com/ucsd-cse15l-s23/lab7) is the link in my clipboard that is cloned.
 
@@ -32,9 +32,9 @@ This uses the `git clone` command to copy the fork into your directory. [This](h
 ### Step 6 - Demonstrating failure
 **What I typed:**
 
-Changing into lab7 directory: (in terminal) `ls l<tab><enter>`
+1. Changing into lab7 directory: (in terminal) `ls l<tab><enter>`
 
-Running test file: (in terminal) `bash t<tab><enter>`
+2. Running test file: (in terminal) `bash t<tab><enter>`
 
 In order to demonstrate failure, I have to run the test bash file that contains the compile and run Java commands (`javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` and `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests`)
 ![Image](pics/failure.png)
@@ -42,20 +42,20 @@ In order to demonstrate failure, I have to run the test bash file that contains 
 ### Step 7 - Editing the code
 **What I typed:**
 
-Open vim: (in terminal) `vim Li<tab>.java<enter>`
+1. Open vim: (in terminal) `vim Li<tab>.java<enter>`
 ![Image](pics/vim-cmd.png)
 
-Editing the code: (in vim) `<left arrow><r><2>`
+2. Editing the code: (in vim) `<left arrow><r><2>`
 
 This is what vim looks like on my end:
 
 ![Image](pics/vim-modified.png)
 
-But here's what's actually happening:
+But here's the entirety of what vim looks like in my terminal:
 
 ![Image](pics/vim-open.png)
 
-Escaping insert mode, saving, and quitting vim: `<escape><:><q><shift><!>`
+3. Escaping insert mode, saving, and quitting vim: `<escape><:><q><shift><!>`
 
 To edit my code and make the tests run sucessfully, I need to use vim. Thankfully, opening vim on my end lands my right next to the character I'm supposed to change, so that makes it simple for me.
 
