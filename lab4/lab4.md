@@ -43,8 +43,8 @@ In order to demonstrate failure, I have to run the test bash file that contains 
 2. Editing the code: (in vim) `<left arrow><r><2>`
 This is what vim looks like on my end:
 ![Image](pics/vim-modified.png)
-But here's the entirety of what vim looks like in my terminal:
-![Image](pics/vim-open.png)
+But here's the entirety of what vim would look like in my terminal if I expanded how big it is in VS COde:
+<img src="pics/vim-open.png" alt= “” width=300 height=500>
 
 3. Escaping insert mode, saving, and quitting vim: (in cim) `<escape><:><w><q>`
 
