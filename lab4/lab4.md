@@ -16,7 +16,8 @@ At this point, the repo link of my fork is in my clipboard from copying the url 
 
 Since I've already authenticated my laptop in lab7, I don't need to type in a password.
 
-<img src="pics/ssh.png" alt= “” width=500 height=350> 
+[<img src="pics/ssh.png" alt= “” width=500 height=350> ]: #
+![Image](pics/ssh.png)
 
 ### Step 5 - Cloning our fork
 **What I typed:**
@@ -54,7 +55,9 @@ This is what vim looks like on my end:
 ![Image](pics/vim-modified.png)
 
 But here's the entirety of what vim would look like in my terminal if I expanded how big it is in VS Code:
-<img src="pics/vim-open.png" alt= “” width=425 height=500>
+
+[<img src="pics/vim-open.png" alt= “” width=425 height=500>]: #
+![Image](pics/vim-open.png)
 
 3. Escaping insert mode, saving, and quitting vim: (in cim) `<escape><:><w><q>`
 
