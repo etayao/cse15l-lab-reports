@@ -6,7 +6,7 @@ At this point, the repo link of my fork is in my clipboard from copying the url 
 
 
 
-*--> Anytime you see <...> with these angle brackets, this means the text inside will refer to certain keys that are pressed. If a referral to what's been type is not in <> brackets, then it is typed out regularly as seen.*
+*Anytime you see <...> with these angle brackets, this means the text inside will refer to certain keys that are pressed. If a referral to what's been type is not in <> brackets, then it is typed out regularly as seen.*
 ### Step 4 - Logging into ieng6
 **What I typed:**
 
