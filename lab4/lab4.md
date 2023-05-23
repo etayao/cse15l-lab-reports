@@ -2,7 +2,7 @@
 
 --> skipping steps 1 - 4 (setting up github and starting timer)
 
-*At this point, the repo link of my fork is in my clipboard from copying the url with (<ctrl> + <c>)*
+At this point, the repo link of my fork is in my clipboard from copying the url with (<ctrl> + <c>)
 
 
 
