@@ -16,7 +16,7 @@ At this point, the repo link of my fork is in my clipboard from copying the url 
 
 Since I've already authenticated my laptop in lab7, I don't need to type in a password.
 
-<img src="pics/ssh.png" alt= “” width=500 height=350>
+<img src="pics/ssh.png" alt= “” width=500 height=350> 
 
 ### Step 5 - Cloning our fork
 **What I typed:**
