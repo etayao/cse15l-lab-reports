@@ -43,10 +43,21 @@ In order to demonstrate failure, I have to run the test bash file that contains 
 **What I typed:**
 
 Open vim: (in terminal) `vim Li<tab>.java<enter>`
+![Image](pics/vim-cmd.png)
 
-Editing the code: (in vim) `<left arrow><escape><:><q><shift><!>`
+Editing the code: (in vim) `<left arrow><r><2>`
 
-To edit my code and make the tests run sucessfully, I need to use vim. 
+This is what vim looks like on my end:
+
+![Image](pics/vim-modified.png)
+
+But here's what's actually happening:
+
+![Image](pics/vim-open.png)
+
+Escaping insert mode, saving, and quitting vim: `<escape><:><q><shift><!>`
+
+To edit my code and make the tests run sucessfully, I need to use vim. Thankfully, opening vim on my end lands my right next to the character I'm supposed to change, so that makes it simple for me.
 
 ### Step 8 - Running sucessful tests
 **What I typed:**
