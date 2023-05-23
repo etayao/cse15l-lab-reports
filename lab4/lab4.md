@@ -75,4 +75,8 @@ After editing the code in vim, the test file has to be run again to show that Li
 1. git add & commit: (in terminal) `git add --all<enter>git commit -am "hoping"<enter>`
 ![Image](pics/add-commit.png)
 
-2. git push: (in terminal) `git `
+2. git push: (in terminal) `git push<enter>`
+
+![Image](pics/help.png)
+
+Unfotunately this very last step doesn't work on my end. I'm pretty sure I followed the SSH with github steps properly, but I'm still getting this error. 
