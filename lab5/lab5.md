@@ -13,8 +13,6 @@ LG Laptop, Windows 11, Chrome, VS Code
 
 ![Image](pics/failure2.png)
 
-
-
 I'm trying to find ListExamples.java in a repo by copying it into my own directory but I get this error message. I was able to find the correct file in the repo, but I get this error message about the directory.
 
 **Detail the failure-inducing input and context. That might mean any or all of the command you're running, a test case, command-line arguments, working directory, even the last few commands you ran. Do your best to provide as much context as you can.**
@@ -29,7 +27,7 @@ It's not pictured here, but student-submissions is already a directory in my rep
 
 ##### TA Response
 
-If you want to be able to clone the file to a new directory each time, how can you make sure that the files from the repo your cloning into submissions are the only things in student-submissions? You don't want to have copies of the files from past repos you've cloned.
+If you want to be able to clone the file to a new directory each time, how can you make sure that you don't have have copies of the files from past repos you've cloned.
 
 ##### Student Retry
 
@@ -37,9 +35,11 @@ I tried removing the directory with the rm command and -rf flag and it worked! I
 
 ![Image](pics/retry.png)
 
+Here's my file now.
+
 ![Image](pics/ogCode.png)
 
-Here's my file now.
+
 
 
 
