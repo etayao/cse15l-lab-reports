@@ -50,6 +50,8 @@ In order to demonstrate failure, I have to run the test bash file that contains 
 
 2. Editing the code: (in vim) `<left arrow><r><2>`
 
+*I only typed 3 keys because vim luckily opened on a spot close to my target*
+
 This is what vim looks like on my end:
 
 ![Image](pics/vim-modified.png)
@@ -83,4 +85,9 @@ After editing the code in vim, the test file has to be run again to show that Li
 
 ![Image](pics/help.png)
 
-Unfotunately this very last step doesn't work on my end. I'm pretty sure I followed the SSH with github steps properly, but I'm still getting this error. 
+At first this very last step doesn't work on my end, but after a lot of digging on stack exchange and the GitHub personal access tokens, I was able to get `git push` to work !
+
+Here's git push doing its thing! And me completing my lab report !
+
+![Image](pics/git-push.png)
+
