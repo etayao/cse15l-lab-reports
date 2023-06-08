@@ -6,7 +6,7 @@ At this point, the repo link of my fork is in my clipboard from copying the url 
 
 
 
-*Anytime you see <...> with these angle brackets, this means the text inside will refer to certain keys that are pressed. If a referral to what's been type is not in <> brackets, then it is typed out regularly as seen.*
+*Anytime you see <...> with these angle brackets, this means the text inside will refer to certain keys that are pressed. If a referral to what's been type is not in <> brackets, then it is typed out as seen.*
 ### Step 4 - Logging into ieng6
 **What I typed:**
 
@@ -46,11 +46,9 @@ In order to demonstrate failure, I have to run the test bash file that contains 
 
 1. Open vim: (in terminal) `vim Li<tab>.java<enter>`
 
-![Image](pics/vim-cmd.png)
+    ![Image](pics/vim-cmd.png)
 
-2. Editing the code: (in vim) `<left arrow><r><2>`
-
-*I only typed 3 keys because vim luckily opened on a spot close to my target*
+2. Editing the code: (in vim) `<left arrow><r><2>` (I had only typed 3 times because vim opened my cursor close to my target)
 
 This is what vim looks like on my end:
 
